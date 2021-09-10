@@ -6,7 +6,7 @@ phases:
       nodejs: 12
     commands:
       - yarn set version berry
-      - npm install -g n
+      - npm update
       - yarn install
   build:
     commands:
