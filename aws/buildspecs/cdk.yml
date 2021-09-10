@@ -7,7 +7,7 @@ phases:
     commands:
       - yarn set version berry
       - n 12.18.3
-      - NODE_ENV=production && yarn install --production=false
+      - NODE_ENV=development && yarn install
   build:
     commands:
       - yarn cdk synth

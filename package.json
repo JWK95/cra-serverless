@@ -27,7 +27,6 @@
     "eject": "react-scripts eject",
     "clean:server": "rimraf .server",
     "run:local": "npx ts-node --project tsconfig.server.json server/handler/local.ts",
-    "belly": "tsc --traceResolution",
     "build:server": "tsc --project tsconfig.server.json",
     "cdn:invalidate": "aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths \"/*\"",
     "package:server": "cp -rf build .server/build && yarn install --prod --silent --no-lockfile --non-interactive --modules-folder .server/node_modules",
