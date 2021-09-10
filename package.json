@@ -16,7 +16,7 @@
     "styled-components": "^5.0.0"
   },
   "engines": {
-    "node" : ">=0.12"
+    "node" : ">=12"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,7 +27,7 @@
     "run:local": "npx ts-node --project tsconfig.server.json server/handler/local.ts",
     "build:server": "tsc --project tsconfig.server.json",
     "cdn:invalidate": "aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths \"/*\"",
-    "package:server": "cp -rf build .server/build; yarn install --prod --silent --no-lockfile --non-interactive --modules-folder .server/node_modules",
+    "package:server": "NPM_CONFIG_UNSAFE_PERM=true&& cp -rf build .server/build; yarn install --prod --silent --no-lockfile --non-interactive --modules-folder .server/node_modules",
     "cdk": "cdk"
   },
   "eslintConfig": {
