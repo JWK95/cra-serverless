@@ -5,7 +5,9 @@ phases:
     runtime-versions:
       nodejs: 12
     commands:
+      - node --version
       - yarn set version berry
+      - yarn set version latest
       - yarn install
   build:
     commands:
