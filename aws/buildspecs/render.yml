@@ -14,7 +14,6 @@ phases:
       - cp -rfv $CODEBUILD_SRC_DIR_assets ./build
       - yarn build:server
       - yarn package:server
--
 artifacts:
   base-directory: .server
   files:
