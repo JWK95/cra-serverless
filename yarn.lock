@@ -3711,7 +3711,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^16.9.1":
   version: 16.9.1
   resolution: "@types/node@npm:16.9.1"
   checksum: 41afcf183a22d59323a0199dd7e0f46591247f45fc08a4434edb26d56dc279ae4fdb80f37989ddd7a0f45e3857c4933e6e82057ede09c5a829f77e373e680375
@@ -3722,13 +3722,6 @@ __metadata:
   version: 10.17.60
   resolution: "@types/node@npm:10.17.60"
   checksum: 2cdb3a77d071ba8513e5e8306fa64bf50e3c3302390feeaeff1fd325dd25c8441369715dfc8e3701011a72fed5958c7dfa94eb9239a81b3c286caa4d97db6eef
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^12.0.0":
-  version: 12.20.24
-  resolution: "@types/node@npm:12.20.24"
-  checksum: e7a13460e2f5b0b5a32c0f3af7daf1a05201552a66d542d3cc3b1ea8b52d4730250f9eb1961d755e31cfe5d03c78340911a6242657a0a9a17d6f7e341fc9f366
   languageName: node
   linkType: hard
 
@@ -3824,7 +3817,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react@npm:17.0.20":
   version: 17.0.20
   resolution: "@types/react@npm:17.0.20"
   dependencies:
@@ -3832,17 +3825,6 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: e342bfaa4fe052fc3a445ea49f746f3fd82cfc9c8028eae139a3e0763ead1871f353bd40da2a472f23d2b52544d2781d40e3159c0703e7e2ff08c13f067a3b9c
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:^16, @types/react@npm:^16.9.0":
-  version: 16.14.15
-  resolution: "@types/react@npm:16.14.15"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: 7003f5c2b38b661b257d2d9dab525549f1fbcf67c2dc39fde09e65136aba9a2f80fa5c471287e629dbce01bf75574cd99f5ede82636dae75cd55111a336926c4
   languageName: node
   linkType: hard
 
@@ -4861,8 +4843,8 @@ __metadata:
   linkType: hard
 
 "aws-sdk@npm:^2.848.0, aws-sdk@npm:^2.979.0":
-  version: 2.986.0
-  resolution: "aws-sdk@npm:2.986.0"
+  version: 2.987.0
+  resolution: "aws-sdk@npm:2.987.0"
   dependencies:
     buffer: 4.9.2
     events: 1.1.1
@@ -4873,7 +4855,7 @@ __metadata:
     url: 0.10.3
     uuid: 3.3.2
     xml2js: 0.4.19
-  checksum: 55de56ae67354200edeedce57f033c1712b08a08b12991900f5bec54598d4d6f048d6494ce09953ec015542931e7eae4c50afeec487676a2a07d0939743aa339
+  checksum: d137370095559d2871ce2dbfb423d0fb41fc112a88c1b819ec1a0c1c5c8d4b4d2b7564071bdc56a7d38c65462d6b9140fd437eb3b02a54a3124f31e5bac56cf3
   languageName: node
   linkType: hard
 
@@ -6494,8 +6476,8 @@ __metadata:
     "@types/jest": ^24.0.0
     "@types/koa-route": ^3.2.4
     "@types/koa-static": ^4.0.1
-    "@types/node": ^12.0.0
-    "@types/react": ^16.9.0
+    "@types/node": ^16.9.1
+    "@types/react": ^17.0.20
     "@types/react-dom": ^16.9.0
     "@types/react-helmet": ^5.0.15
     "@types/react-router": ^5.1.4
@@ -6506,7 +6488,7 @@ __metadata:
     koa-route: ^3.2.0
     koa-router: ^8.0.6
     koa-static: ^5.0.0
-    react: ^16.12.0
+    react: ^17.0.2
     react-dom: ^16.12.0
     react-helmet-async: ^1.0.4
     react-is: ^17.0.2
@@ -14613,14 +14595,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"react@npm:^16.12.0":
-  version: 16.14.0
-  resolution: "react@npm:16.14.0"
+"react@npm:^17.0.2":
+  version: 17.0.2
+  resolution: "react@npm:17.0.2"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-    prop-types: ^15.6.2
-  checksum: 8484f3ecb13414526f2a7412190575fc134da785c02695eb92bb6028c930bfe1c238d7be2a125088fec663cc7cda0a3623373c46807cf2c281f49c34b79881ac
+  checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
   languageName: node
   linkType: hard
 
