@@ -7,7 +7,7 @@ phases:
     commands:
       - yarn set version berry
       - n 12.18.3
-      - NODE_ENV=development && yarn install
+      - yarn install --immutable --immutable-cache --check-cache
   build:
     commands:
       - yarn cdk synth
