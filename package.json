@@ -15,9 +15,6 @@
     "serverless-http": "^2.3.1",
     "styled-components": "^5.0.0"
   },
-  "engines": {
-    "node" : ">=12"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
